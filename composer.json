@@ -3,5 +3,5 @@
     "description": "Kernel",    
     "type" : "library",
     "licence" : "MIT",
-    "version": "1.0.0"   
+    "version": "master"   
 }
