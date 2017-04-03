@@ -1,19 +1,19 @@
 {
-"repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "citsakhalin/kernel",
-            "version": "dev",
-            "source": {
-                "url": "https://github.com/citsakhalin/kernel",
-                "type": "git",
-                "reference": "master"
+    "repositories":[
+        {
+            "type": "package",
+            "package": {
+                "name": "CitSakhalin/Kernel",
+                "version": "1.0.0",
+                "source": {
+                    "url": "https://github.com/citsakhalin/kernel.git",
+                    "type": "git",
+                    "reference": "master"
+                }                
             }
         }
+    ],
+    "require": {        
+        "CitSakhalin/Kernel": "1.0.0"
     }
-],
-"require": {
-    "citsakhalin/kernel": "dev"
-    }
-}
+} 
