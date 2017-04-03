@@ -1,5 +1,11 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/citsakhalin/kernel"
+        }
+    ],
     "require": {
-      
+        "citsakhalin/skin1":"master"
     }
 }
