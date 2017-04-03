@@ -4,7 +4,7 @@
         "type": "package",
         "package": {
             "name": "citsakhalin/kernel",
-            "version": "master",
+            "version": "dev",
             "source": {
                 "url": "https://github.com/citsakhalin/kernel",
                 "type": "git",
@@ -14,6 +14,6 @@
     }
 ],
 "require": {
-    "citsakhalin/kernel": "master"
+    "citsakhalin/kernel": "dev"
     }
 }
