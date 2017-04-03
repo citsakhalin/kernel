@@ -1,11 +1,19 @@
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/citsakhalin/kernel"
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "citsakhalin/kernel",
+            "version": "master",
+            "source": {
+                "url": "https://github.com/citsakhalin/kernel",
+                "type": "git",
+                "reference": "master"
+            }
         }
-    ],
-    "require": {
-        "citsakhalin/skin1":"master"
+    }
+],
+"require": {
+    "citsakhalin/kernel": "master"
     }
 }
